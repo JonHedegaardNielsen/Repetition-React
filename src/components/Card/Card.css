@@ -1,0 +1,9 @@
+div.card {
+	margin: 5px;
+	border: solid 5px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
