@@ -1,6 +1,6 @@
-export const Header = () => {
+export const Header = ({ title }) => {
 	return (
-		<h1>Min Notes App</h1>
+		<h1>{title}</h1>
 	)
 }
 

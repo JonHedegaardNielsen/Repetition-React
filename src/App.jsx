@@ -12,10 +12,10 @@ function App() {
 
 	return (
 		<>
-			<Header />
-			<Content />
+			<Header title='Min Notes App' />
+			<Content paragraphOne='det her min notes side' paragraphTwo='den blev lavet på en tirsdag' paragraphThree='den er mega fed of kan indeholde mange noter f.eks' />
 			<Notes />
-			<Footer />
+			<Footer mail='jon230706@gmail.com' phoneNumber='61 69 91 33' address='Godsbanen 17' />
 		</>
 	)
 }
