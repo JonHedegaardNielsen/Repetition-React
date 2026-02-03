@@ -16,8 +16,7 @@ function App() {
 		<>
 			<Header title='Min Notes App' />
 			<Content imagePath={logo} paragraphOne='det her min notes side' paragraphTwo='den blev lavet på en tirsdag' paragraphThree='den er mega fed of kan indeholde mange noter f.eks' />
-
-			<ImageCard title='react billede' description='det et godt library'>
+			<ImageCard title='Notes' description='dette er appens logo'>
 				<Image imagePath={logo} />
 			</ImageCard>
 			<Notes />

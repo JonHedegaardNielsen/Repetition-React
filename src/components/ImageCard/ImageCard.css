@@ -2,3 +2,8 @@
 	border: solid white 2px;
 	width: auto;
 }
+
+.title {
+	font-size: xx-large;
+	margin: 0;
+}

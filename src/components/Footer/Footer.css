@@ -1,0 +1,15 @@
+.mail {
+	font-weight: bold;
+}
+
+.phoneNumber {
+	font-weight: bold;
+}
+
+.address {
+	font-weight: normal;
+}
+
+ul.list li {
+	color: palegreen;
+}

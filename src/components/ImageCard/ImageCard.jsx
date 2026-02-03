@@ -4,7 +4,7 @@ export const ImageCard = ({ title, description, children }) => {
 		<>
 			<div className='border'>
 
-				<h3>{title}</h3>
+				<h3 className='title'>{title}</h3>
 				<p>{description}</p>
 				{children}
 			</div>
