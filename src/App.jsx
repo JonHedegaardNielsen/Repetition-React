@@ -7,6 +7,8 @@ import { Content } from './components/Content/Content'
 import { Footer } from './components/Footer/Footer'
 import { Notes } from './components/Notes/Notes'
 import logo from './assets/react-logo.png'
+import { ImageCard } from './components/ImageCard/ImageCard'
+import { Image } from './components/Image/Image'
 function App() {
 	const [count, setCount] = useState(0)
 
@@ -14,6 +16,10 @@ function App() {
 		<>
 			<Header title='Min Notes App' />
 			<Content imagePath={logo} paragraphOne='det her min notes side' paragraphTwo='den blev lavet på en tirsdag' paragraphThree='den er mega fed of kan indeholde mange noter f.eks' />
+
+			<ImageCard title='react billede' description='det et godt library'>
+				<Image imagePath={logo} />
+			</ImageCard>
 			<Notes />
 			<Footer mail='jon230706@gmail.com' phoneNumber='61 69 91 33' address='Godsbanen 17' />
 		</>
